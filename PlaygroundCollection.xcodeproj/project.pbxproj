@@ -7,13 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		410EB800217095DB00180D7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410EB7FF217095DB00180D7F /* AppDelegate.swift */; };
-		410EB802217095DB00180D7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410EB801217095DB00180D7F /* ViewController.swift */; };
-		410EB805217095DB00180D7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410EB803217095DB00180D7F /* Main.storyboard */; };
-		410EB807217095DC00180D7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 410EB806217095DC00180D7F /* Assets.xcassets */; };
-		410EB80A217095DC00180D7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410EB808217095DC00180D7F /* LaunchScreen.storyboard */; };
-		410EB815217095DC00180D7F /* PlaygroundCollectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410EB814217095DC00180D7F /* PlaygroundCollectionTests.swift */; };
-		410EB820217095DC00180D7F /* PlaygroundCollectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410EB81F217095DC00180D7F /* PlaygroundCollectionUITests.swift */; };
+		41CB93E121789ABD00BF3780 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41CB93E021789ABD00BF3780 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		410EB7FC217095DB00180D7F /* PlaygroundCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaygroundCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		410EB7FF217095DB00180D7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		410EB801217095DB00180D7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		410EB804217095DB00180D7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		410EB806217095DC00180D7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		410EB809217095DC00180D7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		410EB80B217095DC00180D7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		410EB810217095DC00180D7F /* PlaygroundCollectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaygroundCollectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		410EB814217095DC00180D7F /* PlaygroundCollectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundCollectionTests.swift; sourceTree = "<group>"; };
-		410EB816217095DC00180D7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		410EB81B217095DC00180D7F /* PlaygroundCollectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaygroundCollectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		410EB81F217095DC00180D7F /* PlaygroundCollectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundCollectionUITests.swift; sourceTree = "<group>"; };
-		410EB821217095DC00180D7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		410EB810217095DC00180D7F /* PlaygroundCollectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PlaygroundCollectionTests.xctest; path = "/Users/mert/Developer/PlaygroundCollection/build/Debug-iphoneos/PlaygroundCollectionTests.xctest"; sourceTree = "<absolute>"; };
+		410EB81B217095DC00180D7F /* PlaygroundCollectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PlaygroundCollectionUITests.xctest; path = "/Users/mert/Developer/PlaygroundCollection/build/Debug-iphoneos/PlaygroundCollectionUITests.xctest"; sourceTree = "<absolute>"; };
 		41CB93C52178938000BF3780 /* The Basics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "The Basics.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		41CB93C62178966000BF3780 /* Basic Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Basic Operators.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		41CB93C72178968600BF3780 /* Strings and Characters.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Strings and Characters.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -73,6 +57,8 @@
 		41CB93DC217897B900BF3780 /* Memory Safety.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Memory Safety.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		41CB93DD217897C500BF3780 /* Access Control.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Access Control.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		41CB93DE217897CE00BF3780 /* Advanced Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Advanced Operators.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		41CB93DF21789AB800BF3780 /* PlaygroundCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaygroundCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41CB93E021789ABD00BF3780 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,30 +90,13 @@
 			isa = PBXGroup;
 			children = (
 				410EB7FE217095DB00180D7F /* PlaygroundCollection */,
-				410EB813217095DC00180D7F /* PlaygroundCollectionTests */,
-				410EB81E217095DC00180D7F /* PlaygroundCollectionUITests */,
-				410EB7FD217095DB00180D7F /* Products */,
+				41CB93DF21789AB800BF3780 /* PlaygroundCollection.app */,
 			);
-			sourceTree = "<group>";
-		};
-		410EB7FD217095DB00180D7F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				410EB7FC217095DB00180D7F /* PlaygroundCollection.app */,
-				410EB810217095DC00180D7F /* PlaygroundCollectionTests.xctest */,
-				410EB81B217095DC00180D7F /* PlaygroundCollectionUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		410EB7FE217095DB00180D7F /* PlaygroundCollection */ = {
 			isa = PBXGroup;
 			children = (
-				410EB7FF217095DB00180D7F /* AppDelegate.swift */,
-				410EB801217095DB00180D7F /* ViewController.swift */,
-				410EB803217095DB00180D7F /* Main.storyboard */,
-				410EB806217095DC00180D7F /* Assets.xcassets */,
-				410EB808217095DC00180D7F /* LaunchScreen.storyboard */,
 				410EB80B217095DC00180D7F /* Info.plist */,
 				41CB93C52178938000BF3780 /* The Basics.playground */,
 				41CB93C62178966000BF3780 /* Basic Operators.playground */,
@@ -155,26 +124,9 @@
 				41CB93DC217897B900BF3780 /* Memory Safety.playground */,
 				41CB93DD217897C500BF3780 /* Access Control.playground */,
 				41CB93DE217897CE00BF3780 /* Advanced Operators.playground */,
+				41CB93E021789ABD00BF3780 /* Images.xcassets */,
 			);
 			path = PlaygroundCollection;
-			sourceTree = "<group>";
-		};
-		410EB813217095DC00180D7F /* PlaygroundCollectionTests */ = {
-			isa = PBXGroup;
-			children = (
-				410EB814217095DC00180D7F /* PlaygroundCollectionTests.swift */,
-				410EB816217095DC00180D7F /* Info.plist */,
-			);
-			path = PlaygroundCollectionTests;
-			sourceTree = "<group>";
-		};
-		410EB81E217095DC00180D7F /* PlaygroundCollectionUITests */ = {
-			isa = PBXGroup;
-			children = (
-				410EB81F217095DC00180D7F /* PlaygroundCollectionUITests.swift */,
-				410EB821217095DC00180D7F /* Info.plist */,
-			);
-			path = PlaygroundCollectionUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,7 +146,7 @@
 			);
 			name = PlaygroundCollection;
 			productName = PlaygroundCollection;
-			productReference = 410EB7FC217095DB00180D7F /* PlaygroundCollection.app */;
+			productReference = 41CB93DF21789AB800BF3780 /* PlaygroundCollection.app */;
 			productType = "com.apple.product-type.application";
 		};
 		410EB80F217095DC00180D7F /* PlaygroundCollectionTests */ = {
@@ -265,7 +217,7 @@
 				Base,
 			);
 			mainGroup = 410EB7F3217095DB00180D7F;
-			productRefGroup = 410EB7FD217095DB00180D7F /* Products */;
+			productRefGroup = 410EB7F3217095DB00180D7F;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -281,9 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				410EB80A217095DC00180D7F /* LaunchScreen.storyboard in Resources */,
-				410EB807217095DC00180D7F /* Assets.xcassets in Resources */,
-				410EB805217095DB00180D7F /* Main.storyboard in Resources */,
+				41CB93E121789ABD00BF3780 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,8 +258,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				410EB802217095DB00180D7F /* ViewController.swift in Sources */,
-				410EB800217095DB00180D7F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,7 +265,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				410EB815217095DC00180D7F /* PlaygroundCollectionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,7 +272,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				410EB820217095DC00180D7F /* PlaygroundCollectionUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,25 +289,6 @@
 			targetProxy = 410EB81C217095DC00180D7F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		410EB803217095DB00180D7F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				410EB804217095DB00180D7F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		410EB808217095DC00180D7F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				410EB809217095DC00180D7F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		410EB822217095DC00180D7F /* Debug */ = {
@@ -484,6 +411,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3YA74M59BZ;
 				INFOPLIST_FILE = PlaygroundCollection/Info.plist;
@@ -502,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3YA74M59BZ;
 				INFOPLIST_FILE = PlaygroundCollection/Info.plist;
@@ -519,7 +448,6 @@
 		410EB828217095DC00180D7F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3YA74M59BZ;
@@ -540,7 +468,6 @@
 		410EB829217095DC00180D7F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3YA74M59BZ;
@@ -561,7 +488,6 @@
 		410EB82B217095DC00180D7F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3YA74M59BZ;
 				INFOPLIST_FILE = PlaygroundCollectionUITests/Info.plist;
@@ -581,7 +507,6 @@
 		410EB82C217095DC00180D7F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3YA74M59BZ;
 				INFOPLIST_FILE = PlaygroundCollectionUITests/Info.plist;
