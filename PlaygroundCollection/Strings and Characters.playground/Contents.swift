@@ -31,8 +31,8 @@ for character in "Dog!🐶" {
 
 let string1 = "hello"
 let string2 = " there"
-var welcome = string1 + string2
-// welcome now equals "hello there"
+var added = string1 + string2
+// added now equals "hello there"
 
 let multiplier = 3
 let message = "\(multiplier) times 2.5 is \(Double(multiplier) * 2.5)"
@@ -50,37 +50,50 @@ print("unusualMenagerie has \(unusualMenagerie.count) characters")
 
 // We can think String as an array of Character value type.
 
-let greeting = "Guten Tag!"
-greeting.index(after: greeting.startIndex).encodedOffset
-greeting.indices.endIndex
+let welcome = "Guten Tag!"
+welcome.index(after: welcome.startIndex).encodedOffset
+welcome.indices.endIndex
 
-greeting[greeting.startIndex]
+welcome[welcome.startIndex]
 // G
-greeting[greeting.index(before: greeting.endIndex)]
+welcome[welcome.index(before: welcome.endIndex)]
 // !
-greeting[greeting.index(after: greeting.startIndex)]
+welcome[welcome.index(after: welcome.startIndex)]
 // u
-let index = greeting.index(greeting.startIndex, offsetBy: 7)
-greeting[index]
+let index = welcome.index(welcome.startIndex, offsetBy: 7)
 // a
 
-var welcome = "hello"
-welcome.insert("!", at: welcome.endIndex)
+var welcomen = "hello"
+welcomen.insert("!", at: welcomen.endIndex)
 // welcome now equals "hello!"
 
-welcome.insert(contentsOf: " there", at: welcome.index(before: welcome.endIndex))
+welcomen.insert(contentsOf: " there", at: welcomen.index(before: welcomen.endIndex))
 // welcome now equals "hello there!"
 
 
 // Substrings
 let greeting = "Hello, world!"
-let index = greeting.firstIndex(of: ",") ?? greeting.endIndex
-let beginning = greeting[..<index]
+let greetingIndex = greeting.firstIndex(of: ",") ?? greeting.endIndex
+let beginning = greeting[..<greetingIndex]
 // beginning is "Hello"
 
 // Convert the result to a String for long-term storage.
 let newString = String(beginning)
 
+// Prefix and Suffix Equality
+let romeoAndJuliet = [
+    "Act 1 Scene 1: Verona, A public place",
+    "Act 1 Scene 2: Capulet's mansion",
+    "Act 1 Scene 3: A room in Capulet's mansion",
+    "Act 1 Scene 4: A street outside Capulet's mansion",
+    "Act 1 Scene 5: The Great Hall in Capulet's mansion",
+    "Act 2 Scene 1: Outside Capulet's mansion",
+    "Act 2 Scene 2: Capulet's orchard",
+    "Act 2 Scene 3: Outside Friar Lawrence's cell",
+    "Act 2 Scene 4: A street in Verona",
+    "Act 2 Scene 5: Capulet's mansion",
+    "Act 2 Scene 6: Friar Lawrence's cell"
+]
 
 var act1SceneCount = 0
 for scene in romeoAndJuliet {
