@@ -2,5 +2,10 @@
 <Timeline
    version = "3.0">
    <TimelineItems>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/mert/Developer/PlaygroundCollection/PlaygroundCollection/Closures.playground#CharacterRangeLen=28&amp;CharacterRangeLoc=2515&amp;EndingColumnNumber=0&amp;EndingLineNumber=96&amp;StartingColumnNumber=0&amp;StartingLineNumber=94&amp;Timestamp=561938256.959937"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
    </TimelineItems>
 </Timeline>
